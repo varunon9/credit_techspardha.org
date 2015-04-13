@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#link_buttons{
+	margin-top:60px;
+}
+#link_buttons .btn{
+	margin-bottom:10px;
+	width:140px;
+}
+#about_techspardha {
+	text-align:center;
+}
+#about_techspardha p{
+	font-size:1.0em;
+}
+#about_techspardha p a{
+	font-size:1.0em;
+}
+#footer{
+	background-color:silver;
+}
+#footer .btn{
+	margin-bottom:5px;
+	width:80px;
+}
+/*
+#footer ul{
+	list-style-type:none;
+}
+#footer ul li{
+	display:inline;
+}
+#footer ul li a{
+	color:black;
+}
+*/

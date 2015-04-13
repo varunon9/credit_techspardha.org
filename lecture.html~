@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lectures-Techspardha'15</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/lecture.css"/>
+		<link href="css/bootstrap.css" rel="stylesheet">
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/landing-page.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color:red;"></span>
+                    <span class="icon-bar" style="background-color:white;"></span>
+                    <span class="icon-bar" style="background-color:green;"></span>
+                </button>
+                <a class="navbar-brand" href="#">Techspardha</a>
+            </div>
+
+            
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a>
+                    </li>
+                    <li><a href="#competitions">Competitions</a>
+                    </li>
+							<li><a href="#lectures">lectures</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+      </nav>
+      	<!------------------------------------------------------------------------------------------------------------------- -->
+     <!-- <div class="container" id="content1">
+      	<div class="part">
+      		<div class="left_part">
+      			<img src="img/varun.jpg" alt="varun"/ onclick="show_right('1')";>
+      		</div>
+      		<div class="right_part">
+      			<p id="one">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+					</p>
+      		</div>
+      	</div>
+      	<div class="part">
+      		<div class="left_part">
+      			<img src="img/varun.jpg" alt="varun"/ onclick="show_right('2')";>
+      		</div>
+      		<div class="right_part">
+      			<p id="two">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+					</p>
+      		</div>
+      	</div>
+      	<div class="part">
+      		<div class="left_part">
+      			<img src="img/varun.jpg" alt="varun"/ onclick="show_right('3')";>
+      		</div>
+      		<div class="right_part">
+      			<p id="three">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+					</p>
+      		</div>
+      	</div>
+     	</div>
+      	<!------------------------------------------------------------------------------------------------------------------- -->
+      	
+      <div class="container" id="content2">
+      	<div class="page-header">
+      		<h3>Lecture</h3>
+     		</div>
+      	<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/varun.jpg" alt="varun">
+					</div>
+					<div class="caption">
+						<h5>Mr varun kumar</h5>
+						<p id="a1">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.</p>
+						<p id="a2">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+						</p>
+						<p>
+							<a id="a3" href="javascript:show_more('a1','a2','a3')" class="btn btn-primary" role="button">
+								See more
+							</a>
+							
+						</p>
+					</div>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/varun.jpg" alt="varun">
+					</div>
+					<div class="caption">
+						<h5>Mr varun kumar</h5>
+						<p id="b1">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.</p>
+						<p id="b2">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+						</p>
+						<p>
+							<a id="b3" href="javascript:show_more('b1','b2','b3')" class="btn btn-primary" role="button">
+								See more
+							</a>
+							
+						</p>
+					</div>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="img/varun.jpg" alt="varun">
+					</div>
+					<div class="caption">
+						<h5>Mr varun kumar</h5>
+						<p id="c1">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.</p>
+						<p id="c2">Mr. Varun kumar is B.Tech 2nd year student from NIT KURUKSHETRA.
+							He is in industry for the last 5 years and hence highly experienced. He is known for his 
+							motivational as well as inspirational speech. He gets call from MIT, IITs, IIMs, NITs, IIITs and
+							 many other reputed institutions. Some more text...
+						</p>
+						<p>
+							<a id="c3" href="javascript:show_more('c1','c2','c3')" class="btn btn-primary" role="button">
+								See more
+							</a>
+							
+						</p>
+					</div>
+				</div>
+     		 </div>
+     	
+     	</div>
+     	<!------------------------------------------------------------------------------------------------------------------- -->
+		
+		<!------------------------------------------------------------------------------------------------------------------- -->	
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/lecture.js"></script>
+		<script src="js/bootstrap.js"></script>
+		
+	</body>
+</html>

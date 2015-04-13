@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Techspardha'15</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link href="css/bootstrap.css" rel="stylesheet">
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/landing-page.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color:red;"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Techspardha</a>
+            </div>
+
+            <!--
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a>
+                    </li>
+                    <li><a href="#competitions">Competitions</a>
+                    </li>
+							<li><a href="#lectures">lectures</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            -->
+         </div>
+      </nav>
+      <center>
+     	 <div class="container" id="link_buttons">
+      		<div class="page-header">
+       			 <h3>#madeinIndia</h3>
+      		</div>
+      		<p>
+      			<a href="exhibitions.html"><button type="button" class="btn btn-lg btn-danger"> Exhibitions </button></a>
+       			<a href="lecture.html"><button type="button" class="btn btn-lg btn-default"> Lectures    </button></a>
+        		
+       			<a href="sponsors.html"><button type="button" class="btn btn-lg btn-success"> Sponsors   </button></a>
+       		<!--<button type="button" class="btn btn-lg btn-primary"> Primary </button>
+        		<button type="button" class="btn btn-lg btn-info">Info</button>
+       		 <button type="button" class="btn btn-lg btn-warning"> Warning </button>
+       		 
+       		 <button type="button" class="btn btn-lg btn-link">Link</button>-->
+      		</p>	
+      	</div>
+      </center>
+      <div class="container" id="about_techspardha">
+      	<div class="jumbotron">
+      		<div class="container">
+        			<h4>About Techspardha</h4>
+       		   <p>Techspardha is annual techno managerial fest of NIT Kurukshetra. It is organized collaboratively by various
+       		   	technical socities of the institute.
+       		   </p>
+       		   <p>It sees participation from many engineering institutes in India. It aims to motivate students towards 
+       		   	Science and Technology.
+       		   </p>
+        			<p><a class="btn btn-primary btn-lg" role="button" href="#">Learn more &raquo;</a></p>
+      		</div>
+   		 </div>
+      </div>
+      <div class="container" id="news_and_events">
+      	<div class="page-header">
+        		<h4>News and Events</h4>
+     		 </div>
+      	<div class="alert alert-success">
+        		<strong>Well done!</strong> You successfully read this important alert message.
+     		 </div>
+     		 <div class="alert alert-info">
+        		<strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+     		 </div>
+     		 <div class="alert alert-warning">
+        		<strong>Warning!</strong> Best check yo self, you're not looking too good.
+      	</div>
+      	<div class="alert alert-danger">
+       		 <strong>Oh snap!</strong> Change a few things up and try submitting again.
+      	</div>
+     	</div>
+      <div class="container" id="footer">
+      	
+      	<p>
+      		<a href="www.facebook.com/techspardha"><button type="button" class="btn btn-xs btn-danger">Like Us</button></a>
+        		<a href="contact_us.html"><button type="button" class="btn btn-xs btn-default">Contact Us</button></a>
+       
+        		<a href="index.html"><button type="button" class="btn btn-xs btn-success">Home</button></a>
+        
+        </p>
+      </div>
+	</body>
+</html>
